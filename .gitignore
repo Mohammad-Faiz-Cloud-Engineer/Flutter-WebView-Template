@@ -37,3 +37,26 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Security-sensitive files
+*.env
+*.env.*
+!*.env.example
+*.keystore
+*.jks
+key.properties
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+*.pem
+*.key
+*.p12
+*credentials*.json
+*adminsdk*.json
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*_old.*
+*_copy.*
