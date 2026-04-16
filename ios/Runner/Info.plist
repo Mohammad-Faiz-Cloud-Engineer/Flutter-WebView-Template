@@ -49,6 +49,9 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
+		<!-- NSAllowsLocalNetworking allows HTTP connections to local network addresses -->
+		<!-- This is useful for development/testing with local servers -->
+		<!-- Set to false if your app doesn't need to connect to local HTTP servers -->
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
