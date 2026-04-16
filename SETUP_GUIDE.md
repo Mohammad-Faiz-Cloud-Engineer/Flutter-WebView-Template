@@ -1,4 +1,4 @@
-# 🎯 Quick Setup Guide
+# Quick Setup Guide
 
 ## Step 1: Edit Configuration (2 minutes)
 
