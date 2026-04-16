@@ -50,6 +50,10 @@ android {
 
     buildTypes {
         release {
+            // TODO: Configure proper release signing
+            // Remove the line below and add your release signing config:
+            // signingConfig signingConfigs.release
+            // See: https://docs.flutter.dev/deployment/android#signing-the-app
             signingConfig signingConfigs.debug
             minifyEnabled true
             shrinkResources true
